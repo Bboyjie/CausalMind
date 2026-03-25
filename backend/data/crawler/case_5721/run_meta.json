@@ -1,0 +1,154 @@
+{
+  "requested": {
+    "keywords": [
+      "2027计算机考研经历"
+    ],
+    "platforms": [
+      {
+        "name": "xhs",
+        "max_notes": 10,
+        "get_comments": false,
+        "max_comments_count_singlenotes": 10
+      }
+    ],
+    "total_steps": 1,
+    "extraction": {
+      "chunk_size": 200,
+      "chunk_overlap": 100,
+      "max_chunk_tokens": 1200
+    }
+  },
+  "steps": [
+    {
+      "platform": "xhs",
+      "keyword": "2027计算机考研经历",
+      "max_notes": 10,
+      "allocated_cap": 10,
+      "max_notes_remaining": 0,
+      "get_comments": false,
+      "max_comments_count_singlenotes": 10,
+      "jsonl_files": 1,
+      "raw_items": 10,
+      "post_items": 10,
+      "comment_items": 0
+    }
+  ],
+  "observed": {
+    "raw_items_total": 10,
+    "post_items_total": 10,
+    "comment_items_total": 0,
+    "evidence_total": 10,
+    "post_evidences_total": 10,
+    "comment_evidences_total": 0,
+    "extraction_chunks": 1,
+    "filtered_ads": 0,
+    "filtered_duplicates": 0,
+    "filtered_emotional": 0,
+    "valid_sources": 10,
+    "extracted_facts": 4
+  },
+  "reconciliation": {
+    "requested_post_cap_total": 10,
+    "observed_posts_within_cap": true,
+    "comment_toggle_respected": true
+  },
+  "model_outputs": {
+    "elements_graph": [
+      {
+        "id": "el_001",
+        "element_name": "考研需尽早规划",
+        "category": "里程碑事件",
+        "bound_facts": [
+          "考研需尽早规划，关注时间节点，选择合适辅导老师。",
+          "大龄人员考研需注意个人情况与目标院校选择。"
+        ],
+        "cognitive_reflections": [
+          {
+            "target_fact": "考研需尽早规划，关注时间节点，选择合适辅导老师。",
+            "flaw_type": "隐藏假设",
+            "critique": "该事实隐含了所有考生都能找到合适的辅导老师，但实际情况可能因地区、师资等因素存在差异。"
+          },
+          {
+            "target_fact": "大龄人员考研需注意个人情况与目标院校选择。",
+            "flaw_type": "隐藏假设",
+            "critique": "该事实隐含了所有大龄考生都需注意个人情况与目标院校选择，但实际情况可能因个人背景、目标院校政策等因素有所不同。"
+          }
+        ]
+      },
+      {
+        "id": "el_002",
+        "element_name": "考研失败者未来掌握在自己手中",
+        "category": "认知偏差",
+        "bound_facts": [
+          "考研失败者未来掌握在自己手中。"
+        ],
+        "cognitive_reflections": [
+          {
+            "target_fact": "考研失败者未来掌握在自己手中。",
+            "flaw_type": "幸存者偏差",
+            "critique": "该事实存在幸存者偏差，仅关注了成功案例而忽略了失败者的情况，未能全面反映实际情况。"
+          }
+        ]
+      },
+      {
+        "id": "el_003",
+        "element_name": "408专业课复习需结合真题与资料，掌握出题规律",
+        "category": "个人存量资产",
+        "bound_facts": [
+          "408专业课复习需结合真题与资料，掌握出题规律。"
+        ],
+        "cognitive_reflections": [
+          {
+            "target_fact": "408专业课复习需结合真题与资料，掌握出题规律。",
+            "flaw_type": "无",
+            "critique": "该事实表述较为客观，未发现明显逻辑或认知偏差。"
+          }
+        ]
+      }
+    ],
+    "causal_topology": {},
+    "counterfactual_insight": "",
+    "worldlines": [
+      {
+        "line_name": "Alpha-惯性豪赌线",
+        "core_strategy": "维持现状：2026年3月已开始备考，继续推进考研计划，目标985院校",
+        "timeline_evolution": {
+          "T_plus_1_year": "2027年毕业节点：408基础存量仅20分，距离985录取线（130+）存在巨大缺口，需在约12个月内完成从零到130+的跨越。备考期间无收入，家庭4W托底资金持续消耗。秋招窗口（2026年9-11月）在备考压力下被动放弃。一战失败概率：高（基础薄弱+目标过高的组合，在现实基准中属于高风险区间）。毕业即面临：无Offer、无存款、家庭资金耗尽三重叠加。",
+          "T_plus_3_years": "若一战失败且家庭资金耗尽，'必须立刻就业'的硬约束被触发。此时以应届生身份已过期，以往届生身份进入就业市场，面临双非本科+无工作经验的双重折价。即便二战成功上岸985，研究生毕业已是2030年，届时已25-26岁，错过了互联网/大厂校招的最佳年龄窗口（多数大厂校招偏好应届）。若二战失败，则以双非本科+2年空窗期进入就业市场，竞争力处于历史最低点。",
+          "T_plus_5_years": "两条分叉：路径A（考研成功）：2030年硕士毕业，学历套利部分兑现，但错过了2027-2030年的行业红利积累期，同龄就业者已有3年工作经验和一定存款。路径B（考研失败）：以双非本科身份在就业市场中定型，初始薪资锚点偏低，叠加2-3年的空窗期心理损耗，职业上升通道受限。两条路径的共同点：家庭财务已被严重透支，个人财富积累起点极低。"
+        },
+        "dominant_loop": "恶性增强回路：基础薄弱→备考效率低→焦虑上升→效率进一步下降→放弃秋招→退路消失→焦虑进一步放大。这是一个典型的'破釜沉舟但锅已经漏了'的正反馈死循环。",
+        "new_primary_contradiction": "T+1年的主要矛盾：时间预算与基础缺口之间的不可调和性。T+3年的主要矛盾：学历套利收益 vs 机会成本（工作经验+薪资积累）的真实ROI核算。"
+      },
+      {
+        "line_name": "Beta-战略收缩破局线",
+        "core_strategy": "放弃985目标，转向'先就业积累存量，再择机在职考研或定向提升'的双轨策略。2026年秋招全力冲刺，同步用6个月将408基础从20分提升至60-70分作为技术面试的底层支撑。",
+        "timeline_evolution": {
+          "T_plus_1_year": "2027年毕业节点：以双非本科身份进入就业市场，目标中小厂/外包/区域性互联网公司。薪资预期：8K-15K区间（现实基准）。关键动作：入职后立刻启动'技术存量补课'——用工作中的真实项目经验反哺408知识体系，形成'实践→理论→实践'的正向回路。家庭4W资金得以保留，财务压力解除。",
+          "T_plus_3_years": "工作经验存量积累至2-3年，技术能力通过实战得到验证。此时面临第一个矛盾转移：双非本科的学历天花板开始在晋升/跳槽中显现（部分大厂/外企对学历有硬性筛选）。但此时有两个选项是Alpha线所没有的：选项A：以在职身份备考专硕（非全日制），用工作收入覆盖备考成本，风险极低。选项B：积累足够的项目经验后，通过作品集/开源贡献绕过学历筛选，直接冲击中大厂内推通道。",
+          "T_plus_5_years": "2032年前后：若走在职考研路径，此时已是双非本科+985专硕+3年工作经验的组合，学历套利在更成熟的职业阶段兑现，且无财务风险。若走纯技术路径，3-5年的实战积累已形成不可替代的项目壁垒，薪资曲线斜率高于纯学历驱动路径。财富存量：已有3-5年薪资积累，具备基本的抗风险能力。"
+        },
+        "dominant_loop": "良性增强回路：就业→收入覆盖生活成本→精力从生存焦虑中解放→技术投入效率提升→竞争力上升→更好的跳槽机会→收入进一步提升。这是一个'先稳住存量，再撬动增量'的滚雪球回路。",
+        "new_primary_contradiction": "T+3年的主要矛盾：双非学历天花板 vs 实战经验积累的博弈——这个矛盾比Alpha线的矛盾更'可操作'，因为你手里有筹码（工作经验+收入）。T+5年的主要矛盾：职场上升速度 vs 婚姻/买房的现金流压力（这是所有路径都无法绕开的系统性矛盾）。"
+      },
+      {
+        "line_name": "Gamma-系统崩溃线",
+        "core_strategy": "触发条件：坚持考研+中途因焦虑/经济压力放弃+错过秋招+二战失败，三重风险同时兑现。",
+        "timeline_evolution": {
+          "T_plus_1_year": "2027年毕业节点：一战失败，家庭4W资金消耗殆尽（备考期间生活费+报名费+资料费）。秋招已错过，春招竞争激烈且岗位质量下降。以往届生身份参加春招，简历通过率显著低。"
+        }
+      }
+    ],
+    "worldline_model_generated": true,
+    "worldline_model": "claude-sonnet-4-6",
+    "worldline_generated_at": "2026-03-13T14:12:27.717185+00:00",
+    "contradiction_transformation": {
+      "trigger_condition": "A1动作完成（2026秋招拿到第一个Offer并入职），旧矛盾（生存资源归零风险）解除，系统进入新阶段。",
+      "next_stage_contradiction": "入职后1-2年：双非本科学历天花板开始在晋升/跳槽中显现，外包/中小厂的技术深度不足以支撑向大厂跃迁，'低端就业路径依赖'成为新的主要矛盾。",
+      "dialectical_insight": "先就业是用空间换时间——但这个空间必须被主动填满技术存量，否则'解药'（稳定收入）会在3年内固化为'毒药'（低端劳动力路径锁定）。"
+    },
+    "whitepaper_model_generated": true,
+    "whitepaper_model": "claude-sonnet-4-6",
+    "whitepaper_generated_at": "2026-03-13T14:14:11.899475+00:00"
+  }
+}

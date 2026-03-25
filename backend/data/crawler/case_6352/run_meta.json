@@ -1,0 +1,31 @@
+{
+  "requested": {
+    "keywords": [
+      "潍坊 大专 三年经验 程序员 转型 真实经历",
+      "潍坊 大专 三年经验 程序员 转型 失败原因",
+      "潍坊 大专 三年经验 程序员 转型 机会门槛"
+    ],
+    "platforms": [],
+    "total_steps": 0
+  },
+  "steps": [],
+  "observed": {
+    "raw_items_total": 0,
+    "post_items_total": 0,
+    "comment_items_total": 0,
+    "evidence_total": 1,
+    "post_evidences_total": 1,
+    "comment_evidences_total": 0,
+    "filtered_ads": 0,
+    "filtered_duplicates": 0,
+    "filtered_emotional": 0,
+    "valid_sources": 1,
+    "extracted_facts": 1
+  },
+  "model_outputs": {
+    "causal_topology": {},
+    "counterfactual_insight": "",
+    "worldlines": [],
+    "contradiction_transformation": {}
+  }
+}

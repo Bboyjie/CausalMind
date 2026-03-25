@@ -1,0 +1,11 @@
+{
+  "model_outputs": {
+    "contradiction_transformation": {
+      "trigger_condition": "完成A1动作（确定单一赛道并切断另一条线的时间投入），系统从'双线内耗'状态切换为'单线聚焦'状态，当前主要矛盾随即解除。",
+      "next_stage_contradiction": "一旦选定就业路线并成功入场AI岗位，新的主要矛盾将变为：Agent工程经验的快速贬值速度 vs 你向系统架构/产品决策层跃迁的速度——执行者窗口期极短，2年内若未完成角色升维，将被下一批更年轻的AI原生工程师平替。若选公考路线，新矛盾则变为：上岸后体制内的技术能力冻结 vs 外部AI技术迭代带来的认知鸿沟持续扩大。",
+      "dialectical_insight": "当前的'两手都要抓'本质是用战术上的勤奋掩盖战略上的怯懦——不敢放弃任何一条线，结果是两条线都无法达到竞争门槛，精力分散本身就是最大的风险。"
+    },
+    "whitepaper_model_generated": true,
+    "whitepaper_model": "claude-sonnet-4-6"
+  }
+}

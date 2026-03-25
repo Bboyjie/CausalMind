@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Reset and Variables */
+:root {
+  --el-color-primary: #3b82f6; /* Use tailwind blue-500 as element plus primary color */
+  --wl-color-primary: #3b82f6;
+  --wl-color-success: #22c55e;
+  --wl-color-warning: #f59e0b;
+  --wl-color-danger: #ef4444;
+  --wl-color-info: #94a3b8;
+  --wl-color-confounder: #8b5cf6;
+  --wl-color-collider: #f97316;
+  --wl-chart-bg: #f8fafc;
+  --wl-border-radius-lg: 12px;
+}
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f8fafc; /* tailwind slate-50 */
+}

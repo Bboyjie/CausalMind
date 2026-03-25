@@ -1,0 +1,214 @@
+{
+  "requested": {
+    "keywords": [
+      "2027计算机就业",
+      "2027计算机考公",
+      "计算机行业现状",
+      "考公避坑指南"
+    ],
+    "platforms": [
+      {
+        "name": "xhs",
+        "max_notes": 20,
+        "get_comments": false,
+        "max_comments_count_singlenotes": 10
+      }
+    ],
+    "total_steps": 4,
+    "extraction": {
+      "chunk_size": 200,
+      "chunk_overlap": 100,
+      "max_chunk_tokens": 600
+    }
+  },
+  "steps": [
+    {
+      "platform": "xhs",
+      "keyword": "2027计算机就业",
+      "max_notes": 20,
+      "allocated_cap": 5,
+      "max_notes_remaining": 15,
+      "get_comments": false,
+      "max_comments_count_singlenotes": 10,
+      "jsonl_files": 1,
+      "raw_items": 5,
+      "post_items": 5,
+      "comment_items": 0
+    },
+    {
+      "platform": "xhs",
+      "keyword": "2027计算机考公",
+      "max_notes": 20,
+      "allocated_cap": 5,
+      "max_notes_remaining": 10,
+      "get_comments": false,
+      "max_comments_count_singlenotes": 10,
+      "jsonl_files": 1,
+      "raw_items": 5,
+      "post_items": 5,
+      "comment_items": 0
+    },
+    {
+      "platform": "xhs",
+      "keyword": "计算机行业现状",
+      "max_notes": 20,
+      "allocated_cap": 5,
+      "max_notes_remaining": 5,
+      "get_comments": false,
+      "max_comments_count_singlenotes": 10,
+      "jsonl_files": 1,
+      "raw_items": 5,
+      "post_items": 5,
+      "comment_items": 0
+    },
+    {
+      "platform": "xhs",
+      "keyword": "考公避坑指南",
+      "max_notes": 20,
+      "allocated_cap": 5,
+      "max_notes_remaining": 0,
+      "get_comments": false,
+      "max_comments_count_singlenotes": 10,
+      "jsonl_files": 1,
+      "raw_items": 5,
+      "post_items": 5,
+      "comment_items": 0
+    }
+  ],
+  "observed": {
+    "raw_items_total": 20,
+    "post_items_total": 20,
+    "comment_items_total": 0,
+    "evidence_total": 19,
+    "post_evidences_total": 19,
+    "comment_evidences_total": 0,
+    "extraction_chunks": 16,
+    "filtered_ads": 1,
+    "filtered_duplicates": 0,
+    "filtered_emotional": 0,
+    "valid_sources": 19,
+    "extracted_facts": 2
+  },
+  "reconciliation": {
+    "requested_post_cap_total": 20,
+    "observed_posts_within_cap": true,
+    "comment_toggle_respected": true
+  },
+  "model_outputs": {
+    "elements_graph": [
+      {
+        "id": "el_001",
+        "element_name": "计算机专业毕业生的非技术岗就业选择",
+        "category": "个人存量资产",
+        "bound_facts": [
+          "计算机专业毕业生有多种非技术岗就业选择，如银行科技岗、国企/事业单位科技岗、产品经理、数据分析师等，这些岗位对编程技能要求不高，但需具备一定的技术基础和沟通能力。"
+        ],
+        "cognitive_reflections": [
+          {
+            "target_fact": "计算机专业毕业生有多种非技术岗就业选择，如银行科技岗、国企/事业单位科技岗、产品经理、数据分析师等，这些岗位对编程技能要求不高，但需具备一定的技术基础和沟通能力。",
+            "flaw_type": "隐藏假设",
+            "critique": "该事实隐含了所有非技术岗对编程技能的要求都不高，这可能不完全准确。实际上，不同岗位对技术基础的要求可能有所不同。"
+          }
+        ]
+      },
+      {
+        "id": "el_002",
+        "element_name": "计算机专业毕业生考公的优势",
+        "category": "个人存量资产",
+        "bound_facts": [
+          "计算机专业毕业生考公有较大优势，包括招录规模大、竞争压力小、适配性强等，适合不想从事技术岗位的毕业生。"
+        ],
+        "cognitive_reflections": [
+          {
+            "target_fact": "计算机专业毕业生考公有较大优势，包括招录规模大、竞争压力小、适配性强等，适合不想从事技术岗位的毕业生。",
+            "flaw_type": "幸存者偏差",
+            "critique": "该事实可能忽略了那些未能通过考公的毕业生的情况，存在幸存者偏差。实际上，考公的竞争压力和成功率可能因年份和地区而异。"
+          }
+        ]
+      }
+    ],
+    "causal_topology": {
+      "confounders": [
+        {
+          "hidden_variable_C": "个人职业目标清晰度",
+          "causes_A": "选择考公备考路径",
+          "causes_B": "最终获得稳定工作满意度",
+          "cognitive_trap": "不要以为考公本身带来满意度。如果没有厘清C[职业目标]，考上了也可能后悔，考不上更是两头落空。A和B的相关性是C驱动的。"
+        },
+        {
+          "hidden_variable_C": "家庭经济压力与风险偏好",
+          "causes_A": "倾向选择考公/国企稳定路径",
+          "causes_B": "对互联网大厂高薪的主动放弃",
+          "cognitive_trap": "不要把'选择考公'等同于'技术岗竞争力不足'。很多人的选择是C[家庭风险偏好]决定的，而非能力决定的，这是两件事。"
+        },
+        {
+          "hidden_variable_C": "信息获取渠道与质量",
+          "causes_A": "对计算机考公优势的认知（招录规模大、竞争小）",
+          "causes_B": "最终备考策略的有效性",
+          "cognitive_trap": "招录规模大不等于你报考的那个岗位竞争小。C[信息差]会让人把宏观统计数据错误映射到自己的具体处境，导致备考方向偏差。"
+        }
+      ],
+      "colliders": [
+        {
+          "collider_variable_C": "成功上岸体制内（国企/公务员）",
+          "caused_by_A": "高强度备考投入与应试能力",
+          "caused_by_B": "计算机专业背景匹配专业限制岗",
+          "cognitive_trap": "在'上岸者'这个对撞节点里，你会观察到'备考强的人专业背景反而普通，专业背景强的人备考时间反而少'的虚假负相关。不要因此认为专业能力和备考努力是相互替代的，这是伯克森悖论。"
+        },
+        {
+          "collider_variable_C": "拿到互联网/大厂技术Offer",
+          "caused_by_A": "扎实的算法与工程能力",
+          "caused_by_B": "有效的求职信息与内推资源",
+          "cognitive_trap": "在'拿到Offer的人'这个样本里，技术强的人有时内推资源少，资源多的人技术有时一般，会产生虚假负相关。不要误判为'技术好就不需要人脉'或反之。"
+        }
+      ]
+    },
+    "counterfactual_insight": "因果图的核心干预节点不是'就业 vs 考公'这个二选一，而是上游的两个变量：①职业目标清晰度（C1）和②信息获取质量（C3）。反事实推演：如果在做决策前先干预C1（强制自问：5年后我能接受哪种生活状态的下限？），就能切断'随大流考公'或'随大流投简历'这两条由混淆因子驱动的虚假路径。其次，计算机专业考公的真实优势集中在'专业限制岗'这一子集，而非全体公务员岗位，在C3[信息]层面做精准干预（锁定具体岗位的历年竞争比），比在A[备考时间]上无差别堆投入收益高得多。最高收益的干预顺序：先澄清C1 → 再精准定位C3 → 最后才是在确定路径上加大时间投入。在虚假相关上（如：计算机专业=考公必赢）浪费精力，是这道题最常见的认知陷阱。",
+    "worldlines": [
+      {
+        "line_name": "Alpha-惯性内耗线",
+        "core_strategy": "维持现状，继续寻找技术岗就业机会，同时保持适度的备考时间投入。",
+        "timeline_evolution": {
+          "T_plus_1_year": "短期内，技术能力保持稳定，但因缺乏项目经验，竞争力较弱。就业市场供需比可能较高，技术岗Offer获取难度较大。",
+          "T_plus_3_years": "中期，技术能力因缺乏维护而逐渐退化，非技术岗竞争力不足。考公竞争压力大，上岸概率较低。技术岗市场可能更加饱和，就业难度增加。",
+          "T_plus_5_years": "长期，技术能力显著退化，非技术岗就业机会有限。考公成功上岸的可能性较低，技术岗市场可能更加竞争激烈。生活状态可能因技术能力不足而受限。"
+        },
+        "dominant_loop": "技术能力折旧的负向增强回路",
+        "new_primary_contradiction": "技术能力退化与非技术岗竞争力不足"
+      },
+      {
+        "line_name": "Beta-破局干预线",
+        "core_strategy": "全力备考考公，放弃技术岗就业窗口，争取在省考中上岸。",
+        "timeline_evolution": {
+          "T_plus_1_year": "短期内，备考投入大量时间，技术能力因缺乏维护而退化。考公岗位类型未确定，竞争压力大。",
+          "T_plus_3_years": "中期，考公成功上岸，放弃技术岗就业窗口。技术能力因长期不维护而退化，非技术岗竞争力不足。考公岗位类型确定后，竞争压力大。",
+          "T_plus_5_years": "长期，考公成功上岸，进入行政岗位。技术能力退化，非技术岗竞争力不足。生活状态可能因技术能力不足而受限。"
+        },
+        "dominant_loop": "技术能力折旧的负向增强回路",
+        "new_primary_contradiction": "技术能力退化与非技术岗竞争力不足"
+      },
+      {
+        "line_name": "Gamma-对抗性崩溃线",
+        "core_strategy": "放弃技术岗就业与考公，直接进入非技术岗就业，但长期来看，技术能力将快速退化。",
+        "timeline_evolution": {
+          "T_plus_1_year": "短期内，技术能力保持稳定，但因缺乏项目经验，竞争力较弱。就业市场供需比可能较高，技术岗Offer获取难度较大。",
+          "T_plus_3_years": "中期，技术能力因长期不维护而退化，非技术岗竞争力不足。考公竞争压力大，上岸概率较低。技术岗市场可能更加饱和，就业难度增加。",
+          "T_plus_5_years": "长期，技术能力显著退化，非技术岗就业机会有限。考公成功上岸的可能性较低，技术岗市场可能更加竞争激烈。生活状态可能因技术能力不足而受限。"
+        },
+        "dominant_loop": "技术能力折旧的负向增强回路",
+        "new_primary_contradiction": "技术能力退化与非技术岗竞争力不足"
+      }
+    ],
+    "worldline_model_generated": true,
+    "worldline_model": "Qwen/Qwen2.5-7B-Instruct",
+    "worldline_generated_at": "2026-03-14T15:15:36.728851+00:00",
+    "contradiction_transformation": {
+      "trigger_condition": "全力备考考公，放弃技术岗就业窗口。",
+      "next_stage_contradiction": "技术能力退化与非技术岗竞争力不足，考公岗位类型确定后的竞争压力大。",
+      "dialectical_insight": "空间换时间的策略在长期将导致技术能力的折旧加速，最终陷入路径依赖。"
+    },
+    "whitepaper_model_generated": true,
+    "whitepaper_model": "Qwen/Qwen2.5-7B-Instruct",
+    "whitepaper_generated_at": "2026-03-14T15:16:14.211491+00:00"
+  }
+}

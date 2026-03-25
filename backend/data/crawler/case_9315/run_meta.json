@@ -1,0 +1,48 @@
+{
+  "requested": {
+    "keywords": [
+      "潍坊 大专 三年经验 程序员 转型 真实经历",
+      "潍坊 大专 三年经验 程序员 转型 失败原因",
+      "潍坊 大专 三年经验 程序员 转型 机会门槛"
+    ],
+    "platforms": [],
+    "total_steps": 0,
+    "extraction": {
+      "chunk_size": 12,
+      "chunk_overlap": 0,
+      "max_chunk_tokens": 0
+    }
+  },
+  "steps": [],
+  "observed": {
+    "raw_items_total": 0,
+    "post_items_total": 0,
+    "comment_items_total": 0,
+    "evidence_total": 1,
+    "post_evidences_total": 1,
+    "comment_evidences_total": 0,
+    "filtered_ads": 0,
+    "filtered_duplicates": 0,
+    "filtered_emotional": 0,
+    "valid_sources": 1,
+    "extracted_facts": 1
+  },
+  "reconciliation": {
+    "requested_post_cap_total": 0,
+    "observed_posts_within_cap": true,
+    "comment_toggle_respected": true
+  },
+  "model_outputs": {
+    "elements_graph": [],
+    "causal_topology": {},
+    "counterfactual_insight": "",
+    "worldlines": [],
+    "worldline_model_generated": false,
+    "worldline_model": "",
+    "worldline_generated_at": "",
+    "contradiction_transformation": {},
+    "whitepaper_model_generated": false,
+    "whitepaper_model": "",
+    "whitepaper_generated_at": ""
+  }
+}

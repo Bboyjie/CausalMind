@@ -1,0 +1,49 @@
+{
+  "requested": {
+    "keywords": [
+      "2027计算机专业真实体验"
+    ],
+    "platforms": [
+      {
+        "name": "xhs",
+        "max_notes": 10,
+        "get_comments": false,
+        "max_comments_count_singlenotes": 10
+      }
+    ],
+    "total_steps": 1,
+    "extraction": {
+      "chunk_size": 200,
+      "chunk_overlap": 60,
+      "max_chunk_tokens": 1200
+    }
+  },
+  "steps": [
+    {
+      "platform": "xhs",
+      "keyword": "2027计算机专业真实体验",
+      "max_notes": 10,
+      "allocated_cap": 10,
+      "max_notes_remaining": 10,
+      "get_comments": false,
+      "max_comments_count_singlenotes": 10,
+      "jsonl_files": 0,
+      "raw_items": 0,
+      "post_items": 0,
+      "comment_items": 0
+    }
+  ],
+  "observed": {
+    "raw_items_total": 0,
+    "post_items_total": 0,
+    "comment_items_total": 0,
+    "evidence_total": 1,
+    "post_evidences_total": 1,
+    "comment_evidences_total": 0
+  },
+  "reconciliation": {
+    "requested_post_cap_total": 10,
+    "observed_posts_within_cap": true,
+    "comment_toggle_respected": true
+  }
+}
